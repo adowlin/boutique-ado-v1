@@ -60,6 +60,20 @@ body {
     background: #000 !important;
 }
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
+
+.products-container {
+    padding-top: 164px;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
@@ -77,6 +91,7 @@ body {
         right: 0;
         left: 0;
         z-index: 1030;
+        padding-top: 164px;
     }
 
     .header-container {
